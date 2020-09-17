@@ -1,0 +1,132 @@
+@import "~quill/dist/quill.core.css";
+@import "~quill/dist/quill.bubble.css";
+@import "~quill/dist/quill.snow.css";
+
+body {
+  margin-top: 6rem;
+}
+
+button {
+  margin-top: auto;
+  max-width: 866px;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+strong {
+  margin-bottom: 10px;
+}
+
+.editors {
+  width: 700px;
+  heigh: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.commentSection {
+  margin-top: 70px;
+}
+
+.btn.btn-outline-dark {
+  margin-left: 10px;
+}
+
+form {
+  margin-top: 2%;
+}
+
+span {
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.btn-block {
+  margin-top: 20px;
+}
+a {
+  color: #000000;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 5px;
+  width: 30px;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin: 0 auto;
+}
+
+.todos {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.mb-3 {
+  margin: 0 auto;
+}
+
+.mb-3:hover {
+  transform: scale(1.01);
+}
+
+.alert-alert-danger {
+  margin-top: 1%;
+  width: auto;
+}
+
+.fillin-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
